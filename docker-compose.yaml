@@ -1,0 +1,9 @@
+version: "3.3"
+
+services:
+  vite_docker:
+    image: danilgribanov/golden-intersgip:latest
+    restart: always
+    ports:
+      - "80:80"
+    tty: true
