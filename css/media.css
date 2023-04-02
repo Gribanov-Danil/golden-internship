@@ -1,0 +1,9 @@
+@media (max-width: 1660px) {
+    .nav {
+        justify-content: normal;
+        margin: 0 40px;
+    }
+    .background {
+        padding: 578px 40px 83px;
+    }
+}

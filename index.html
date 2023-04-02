@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="img/favicon/icon.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Vite App</title>
+    <link rel="stylesheet" href="css/media.css">
+    <title>Золотая стажировка</title>
 </head>
 <body>
 <header class="header">
@@ -41,155 +43,158 @@
             <div class="hero__block">
                 <p class="hero__description">Практико-ориентированное образование через прикладную и&nbsp;фундаментальную
                     науку мирового уровня</p>
-                <a href="#" class="hero__link">Смотреть программы</a>
+                <a href="#" class="hero__link link">Смотреть программы</a>
             </div>
         </div>
     </section>
-    <section class="about">
-        <div class="about__description">
-            <h2 class="about__title section_title">Об&nbsp;институте</h2>
-            <p class="about__text">
-                ХТИ - это глубокие научные и образовательные традиции, а также высококвалифицированные сотрудники, обладающие богатым опытом в решении разноплановых фундаментальных и прикладных задач в области современной химии и химической технологии.
-            </p>
-            <div class="about__link">
-                <a href="#">Посетить сайт института</a>
-            </div>
-
-            <button class="btn about__btn">Поступить</button>
-        </div>
-        <div class="about__achievements">
-            <div class="achievements__video-container">
-                <iframe width="496" height="276" src="https://www.youtube.com/embed/JVxCkyjs2Q4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <iframe width="496" height="276" src="https://www.youtube.com/embed/ZgfiIdQsrN8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <ul class="achievements__container">
-                <li class="achievements__item list-reset">
-                    <div class="item__count">25</div>
-                    <div class="item__block">
-                        <span class="item__line"></span>
-                    </div>
-                    <div class="item__title">Российских и&nbsp;зарубежных академических партнеров</div>
-                </li>
-                <li class="achievements__item list-reset">
-                    <div class="item__count">20</div>
-                    <div class="item__block">
-                        <span class="item__line"></span>
-                    </div>
-                    <div class="item__title">Крупных индустриальных партнеров</div>
-                </li>
-                <li class="achievements__item list-reset">
-                    <div class="item__count">150</div>
-                    <div class="item__block">
-                        <span class="item__line"></span>
-                    </div>
-                    <div class="item__title">Бюджетных мест по&nbsp;программам магистратуры</div>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-
-    <section class="enter">
-        <div class="enter__header">
-            <h2 class="enter__title section_title">Как поступить?</h2>
-            <div class="toggler">
-                <span class="toggler__item toggler__text active">Бюджет</span>
-                <div class="toggler__item toggler__block flex-start">
-                    <span class="toggler__ellipse"></span>
+    <div class="content">
+        <section class="about">
+            <div class="about__description">
+                <h2 class="about__title section_title">Об&nbsp;институте</h2>
+                <p class="about__text">
+                    ХТИ - это глубокие научные и образовательные традиции, а также высококвалифицированные сотрудники, обладающие богатым опытом в решении разноплановых фундаментальных и прикладных задач в области современной химии и химической технологии.
+                </p>
+                <div class="about__link">
+                    <a class="link" href="#">Посетить сайт института</a>
                 </div>
-                <span class="toggler__item toggler__text">Контракт</span>
+
+                <button class="btn about__btn">Поступить</button>
             </div>
-        </div>
-        <div class="enter__block">
-            <ul class="enter__list">
-                <li class="enter__item list-reset">
-                    <div class="item__head_block">
-                        <span class="item__step">1</span>
-                        <h3 class="item__title">Узнайте о&nbsp;поступлении</h3>
+            <div class="about__achievements">
+                <div class="achievements__video-container">
+                    <iframe width="496" height="276" src="https://www.youtube.com/embed/JVxCkyjs2Q4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="496" height="276" src="https://www.youtube.com/embed/ZgfiIdQsrN8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <ul class="achievements__container">
+                    <li class="achievements__item list-reset">
+                        <div class="item__count">25</div>
+                        <div class="item__block">
+                            <span class="item__line"></span>
+                        </div>
+                        <div class="item__title">Российских и&nbsp;зарубежных академических партнеров</div>
+                    </li>
+                    <li class="achievements__item list-reset">
+                        <div class="item__count">20</div>
+                        <div class="item__block">
+                            <span class="item__line"></span>
+                        </div>
+                        <div class="item__title">Крупных индустриальных партнеров</div>
+                    </li>
+                    <li class="achievements__item list-reset">
+                        <div class="item__count">150</div>
+                        <div class="item__block">
+                            <span class="item__line"></span>
+                        </div>
+                        <div class="item__title">Бюджетных мест по&nbsp;программам магистратуры</div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section class="enter">
+            <div class="enter__header">
+                <h2 class="enter__title section_title">Как поступить?</h2>
+                <div class="toggler">
+                    <span class="toggler__item toggler__text active">Бюджет</span>
+                    <div class="toggler__item toggler__block flex-start">
+                        <span class="toggler__ellipse"></span>
                     </div>
-                    <div class="item__block">
-                        <div class="span__container">
-                            <div class="item__span">
-                                <p class="item__text">Правила приема</p>
+                    <span class="toggler__item toggler__text">Контракт</span>
+                </div>
+            </div>
+            <div class="enter__block">
+                <ul class="enter__list">
+                    <li class="enter__item list-reset">
+                        <div class="item__head_block">
+                            <span class="item__step">1</span>
+                            <h3 class="item__title">Узнайте о&nbsp;поступлении</h3>
+                        </div>
+                        <div class="item__block">
+                            <div class="span__container">
+                                <div class="item__span">
+                                    <p class="item__text">Правила приема</p>
+                                </div>
+                                <div class="item__span">
+                                    <p class="item__text">Сроки подачи документов</p>
+                                </div>
                             </div>
-                            <div class="item__span">
-                                <p class="item__text">Сроки подачи документов</p>
+                            <div class="additional_text__container">
+                                <div class="item__additional_text">
+                                    <p>Очная форма обучения:</p>
+                                    <span class="enter__date">20.06&nbsp;- 08.08</span>
+                                    <span class="enter__date hidden">20.06&nbsp;- 23.09</span>
+                                </div>
+                                <div class="item__additional_text">
+                                    <p>Очно-заочная форма обучения:</p>
+                                    <span class="enter__date">20.06&nbsp;- 08.08</span>
+                                    <span class="enter__date hidden">20.06&nbsp;- 28.10</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="additional_text__container">
-                            <div class="item__additional_text">
-                                <p>Очная форма обучения:</p>
-                                <span class="enter__date">20.06&nbsp;- 08.08</span>
-                                <span class="enter__date hidden">20.06&nbsp;- 23.09</span>
-                            </div>
-                            <div class="item__additional_text">
-                                <p>Очно-заочная форма обучения:</p>
-                                <span class="enter__date">20.06&nbsp;- 08.08</span>
-                                <span class="enter__date hidden">20.06&nbsp;- 28.10</span>
-                            </div>
+                    </li>
+                    <li class="enter__item enter__item--with_link list-reset">
+                        <div class="item__head_block">
+                            <span class="item__step">2</span>
+                            <h3 class="item__title">Выберите образовательную программу</h3>
                         </div>
-                    </div>
-                </li>
-                <li class="enter__item enter__item--with_link list-reset">
-                    <div class="item__head_block">
-                        <span class="item__step">2</span>
-                        <h3 class="item__title">Выберите образовательную программу</h3>
-                    </div>
-                    <div class="item__block">
-                        <div class="span__container">
-                            <div class="item__span">
-                                <p class="item__text">Каталог образовательных программ</p>
+                        <div class="item__block">
+                            <div class="span__container">
+                                <div class="item__span">
+                                    <p class="item__text">Каталог образовательных программ</p>
+                                </div>
+                            </div>
+                            <div class="link__container">
+                                <a href="#" class="item__link link">Смотреть программы</a>
                             </div>
                         </div>
-                        <div class="link__container">
-                            <a href="#" class="item__link">Смотреть программы</a>
+                    </li>
+                    <li class="enter__item enter__item--with_link list-reset">
+                        <div class="item__head_block">
+                            <span class="item__step enter__item--red">3</span>
+                            <h3 class="item__title">Подайте документы</h3>
                         </div>
-                    </div>
-                </li>
-                <li class="enter__item enter__item--with_link list-reset">
-                    <div class="item__head_block">
-                        <span class="item__step">3</span>
-                        <h3 class="item__title">Подайте документы</h3>
-                    </div>
-                    <div class="item__block">
-                        <div class="span__container">
-                            <div class="item__span">
-                                <p class="item__text">Подать документы онлайн через личный кабинет абитуриента</p>
+                        <div class="item__block">
+                            <div class="span__container">
+                                <div class="item__span">
+                                    <p class="item__text">Подать документы онлайн через личный кабинет абитуриента</p>
+                                </div>
+                            </div>
+                            <div class="link__container">
+                                <a href="#" class="item__link link">Регистрация</a>
                             </div>
                         </div>
-                        <div class="link__container">
-                            <a href="#" class="item__link">Регистрация</a>
+                    </li>
+                    <li class="enter__item list-reset">
+                        <div class="item__head_block">
+                            <span class="item__step">4</span>
+                            <h3 class="item__title">Пройдите вступительные испытания</h3>
                         </div>
-                    </div>
-                </li>
-                <li class="enter__item list-reset">
-                    <div class="item__head_block">
-                        <span class="item__step">4</span>
-                        <h3 class="item__title">Пройдите вступительные испытания</h3>
-                    </div>
-                    <div class="item__block item__block--with_additional">
-                        <div class="span__container">
-                            <div class="item__span">
-                                <p class="item__text">Период сдачи вступительных испытаний</p>
+                        <div class="item__block item__block--with_additional">
+                            <div class="span__container">
+                                <div class="item__span">
+                                    <p class="item__text">Период сдачи вступительных испытаний</p>
+                                </div>
+                                <div class="item__additional_text">
+                                    <p>Очная форма обучения:</p>
+                                    <span class="enter__date">04.07&nbsp;- 13.08</span>
+                                    <span class="enter__date hidden">04.07&nbsp;- 13.08 и 22.08&nbsp;- 24.09</span>
+                                </div>
                             </div>
-                            <div class="item__additional_text">
-                                <p>Очная форма обучения:</p>
-                                <span class="enter__date">04.07&nbsp;- 13.08</span>
-                                <span class="enter__date hidden">04.07&nbsp;- 13.08 и 22.08&nbsp;- 24.09</span>
-                            </div>
-                        </div>
-                        <div class="additional_text__container">
-                            <div class="item__additional_text">
-                                <p>Очно-заочная форма обучения:</p>
-                                <span class="enter__date">04.07&nbsp;- 13.09 и&nbsp;22.08&nbsp;- 12.09</span>
-                                <span class="enter__date hidden">04.07&nbsp;- 13.08 и 22.08&nbsp;- 29.10</span>
+                            <div class="additional_text__container">
+                                <div class="item__additional_text">
+                                    <p>Очно-заочная форма обучения:</p>
+                                    <span class="enter__date">04.07&nbsp;- 13.09 и&nbsp;22.08&nbsp;- 12.09</span>
+                                    <span class="enter__date hidden">04.07&nbsp;- 13.08 и 22.08&nbsp;- 29.10</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
 </main>
 <footer class="footer">
     <span class="footer__line"></span>
