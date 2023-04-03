@@ -9,40 +9,8 @@
 
 @font-face {
     font-family: 'mont';
-    src: url(../fonts/Mont-Thin.woff2) format('woff2');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'mont';
-    src: url(../fonts/Mont-ExtraLight.woff2) format('woff2');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'mont';
-    src: url(../fonts/Mont-Light.woff2) format('woff2');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'mont';
     src: url(../fonts/Mont-Regular.woff2) format('woff2');
     font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'mont';
-    src: url(../fonts/Mont-SemiBold.woff2) format('woff2');
-    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
@@ -63,13 +31,6 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'mont';
-    src: url(../fonts/Mont-Black.woff2) format('woff2');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
 
 html {
     box-sizing: border-box;
@@ -83,7 +44,6 @@ html {
 
 body {
     min-width: 320px;
-    /*max-width: 1600px;*/
     margin: 0 auto;
     font-family: 'mont', 'montserrat', sans-serif;
 }
@@ -127,7 +87,7 @@ ul {
     margin: 0;
 }
 
-.list-reset {
+li {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -148,6 +108,7 @@ ul {
 .btn:hover {
     background: var(--btn-hover);
 }
+
 .link {
     display: inline-block;
     position: relative;
@@ -359,6 +320,7 @@ ul {
 }
 
 .achievements__video-container iframe{
+    border: 0;
     border-radius: 2px;
 }
 
@@ -371,7 +333,6 @@ ul {
 }
 
 .item__count {
-
     font-weight: 600;
     font-size: 52px;
     line-height: 58px;
@@ -444,11 +405,6 @@ ul {
     cursor: pointer;
     transition: .2s ease-in-out;
 }
-
-.checked {
-    padding: 0 0 0 32px;
-}
-
 
 .toggler__ellipse {
     display: inline-block;
@@ -660,9 +616,6 @@ ul {
 .enter__item:nth-child(3) .item__span::before {
     border: 2px solid var(--btn-default);
 }
-
-
-
 
 .footer {
     position: relative;
