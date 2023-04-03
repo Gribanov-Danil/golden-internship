@@ -219,8 +219,8 @@ li {
     display: flex;
     align-items: center;
     gap: 304px;
-    padding: 578px clamp(40px, 4.8%, 100px) 83px;
-    background-image: url("../img/background.png");
+    padding: 578px clamp(40px, calc((100vw - 1600px) / 2 + 40px), 200px) 83px;
+    background-image: url("../img/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
