@@ -299,7 +299,7 @@ li {
 }
 
 .about__link .link::after {
-    top: 0.5rem;
+    bottom: -0.1rem;
     border-bottom: 2px solid var(--dark-blue);
 }
 
